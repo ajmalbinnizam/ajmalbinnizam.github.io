@@ -1,4 +1,4 @@
-#data science details and project overview;
+# Data Science details and project overview;
 
 # [Project 1: Data Science Salary Estimator: Project Overview](https://github.com/ajmalbinnizam/ds_salary)
 * Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
