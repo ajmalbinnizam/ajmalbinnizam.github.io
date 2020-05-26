@@ -1,0 +1,34 @@
+.fa-facebook-square:hover {
+  background: #2b4170; 
+  background: -moz-linear-gradient(45deg, #2b4170 0%,#3b5998 25%,#0b214e 50%,  #2818bc 100%); 
+  background: -webkit-linear-gradient(45deg, #2b4170 0%,#3b5998 25%,#0b214e 50%,#2818bc 100%); 
+  background: linear-gradient(45deg, #2b4170 0%,#3b5998 25%, #0b214e 50%,#2818bc 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b4170', endColorstr='#2818bc',GradientType=1 );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+	
+}
+
+.fa-linkedin:hover{
+  color: #4267b2;
+}
+.fa-instagram:hover{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+}
+
+.fa-github:hover {
+  color: rgb(51, 51, 51);
+}
+ <img style="margin-top: 1rem" width="300px" src="images/music.png" alt="music cleff">
+
+
+ #e66465, #9198e5
