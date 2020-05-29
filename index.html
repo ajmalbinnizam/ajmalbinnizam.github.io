@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head style="z-index: 1;">
+<head >
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AjmalBinNizam</title>
@@ -61,7 +60,7 @@
                         <a href="#services" class="nav-links">Skillset</a>
                     </li>
                     <li>
-                        <a href="#experience" class="nav-links">My Journey</a>
+                        <a href="#experience" class="nav-links">My experience</a>
                     </li>
                     <li>
                         <a href="https://drive.google.com/file/d/1cfD4EDe_qZAc97h8sQWLkZQxUqYcf4Lz/view?usp=sharing"class="nav-links primary-border " target="_blank">Resume</a>
@@ -101,7 +100,7 @@
                 <div class="profile-img" data-aos="fade-in" data-aos-delay="400">
                     <img src="images/profilea.jpg" alt="profile picture">
                 </div>
-                <div class="about-details" data-aos="fade-in" data-aos-delay="200">
+                <div class="about-details" data-aos="fade-up" data-aos-delay="200">
                     <div class="about-heading">
                         <h1>About</h1>
                         <h6>Myself</h6>
@@ -357,7 +356,7 @@
 <section class="experience" id="experience" data-aos="fade-in" data-aos-delay="200">
     <div class="container">
     <div class="section-heading">
-        <h1>My Journey</h1>
+        <h1>My experience</h1>
         <h6></h6>
                 <!-- The Timeline -->
                 <div class="contain">
@@ -418,7 +417,7 @@
 
 
         <!-- personal section -->
-        <section class="personal" id="personal" data-aos="fade-in" data-aos-delay="300">
+        <section class="personal" id="personal" data-aos="fade-up" data-aos-delay="300">
             <div class="container">
             <div class="section-heading">
                 <h1>Personal</h1>
@@ -436,10 +435,10 @@
                    <br> </p>
                    <!-- image section -->
                    <div class="container"> 
-                       <div class="rows">
-                        <div class="swiper-container">
+                       <div class="bio-container">
+                        <div class="swiper-container" class="col-12">
                             <div class="swiper-wrapper">
-                              <div class="swiper-slide" >
+                              <div class="swiper-slide"  >
                                   <div class="imgbx">
                                     <img src="images/guit.jpg" alt="guitar">
                                   </div>
@@ -561,8 +560,8 @@
           centeredSlides: true,
           slidesPerView: 'auto',
           coverflowEffect: {
-            rotate: 50,
-            stretch: 0,
+            rotate: 60,
+            stretch: 1,
             depth: 100,
             modifier: 1,
             slideShadows : true,
@@ -606,7 +605,7 @@
          <!-- /end personal section -->
 
         <!-- contact section -->
-        <section class="contact" id="contact" data-aos="fade-in" data-aos-delay="400">
+        <section class="contact" id="contact" data-aos="fade-in" data-aos-delay="300">
             <div class="container">
                 <div class="section-heading">
                     <h1>Contact</h1>
@@ -618,9 +617,10 @@
                  <div class="container-contact100">
 
                     <div class="wrap-contact100">
-                        <form id="contactform" class="contact100-form" action="contactform.php" method="POST">
 
-                            <input type='hidden' name='redirect_to' value='thankyou.html' />
+                        <form id="contactform" class="contact100-form" action="contact.php" method="POST">
+
+                            <!-- <input type='hidden' name='redirect_to' value='thankyou.html' /> -->
 
                             <div class="wrap-input100">
                                 <input class="input100" type="text" name="name" placeholder="Your name" required>
@@ -642,7 +642,7 @@
                                     <span>
                                         <i class="fas fa-paper-plane m-r-6" aria-hidden="true"></i>
                                         <a href="thankyou.html">Send</a>  
-                                       Send
+                                       ..
                                     </span>
                                 </button>
                             </div>
