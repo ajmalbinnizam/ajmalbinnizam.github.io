@@ -182,7 +182,7 @@
   width: 3px;
   height: 100%;
   background: #CCD1D9;
-  z-index: 1
+ 
 }
 
 .timeline-block {
@@ -198,6 +198,7 @@
   -moz-box-pack: justify;
   justify-content: space-between;
   clear: both;
+ 
 }
 
 .timeline-block-right {
