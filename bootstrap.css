@@ -273,3 +273,68 @@
      direction: ltr;
   }
 }
+
+/* 
+.address{
+  margin-left: 3rem;
+}
+.phone{
+  flex-direction: column;
+} */
+
+/* footer addres */
+
+
+.footer .nav-list{
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer i {
+  padding: 1rem;
+  font-size: 3rem;
+  transition: all 250ms;
+}
+
+.footer i:hover {
+  transform: scale(1.4);
+}
+
+.fa-map-marker-alt:hover {
+  background: #2b4170; 
+  background: -moz-linear-gradient(45deg, #2b4170 0%,#5f2e00 25%,#0b214e 50%,  #d11414 100%); 
+  background: -webkit-linear-gradient(45deg, #2b4170 0%,#5f2e00 25%,#0b214e 50%,#d11414 100%); 
+  background: linear-gradient(45deg, #2b4170 0%,#5f2e00 25%, #0b214e 50%,#d11414 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b4170', endColorstr='#2818bc',GradientType=1 );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+	
+}
+
+.fa-phone:hover{
+  background: #2b4170; 
+  background: -moz-linear-gradient(45deg, #2b4170 0%,#3b5998 25%,#0b216e 50%,  #2818bc 100%); 
+  background: -webkit-linear-gradient(45deg, #2b4170 0%,#3b5998 25%,#0b216e 50%,#2818bc 100%); 
+  background: linear-gradient(45deg, #2b4170 0%,#3b5998 25%, #0b216e 50%,#2818bc 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b4170', endColorstr='#2818bc',GradientType=1 );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.iconl{
+  margin-left: 3rem;
+}
+.iconp{
+  margin-left: 3rem;
+
+}
+.aju{
+  float: right;
+  position: absolute; 
+ bottom: 0;
+
+}
