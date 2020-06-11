@@ -4,9 +4,8 @@
 
 > i used juliocodes tutorial and two website combined to make my personal website
 
-> Get the source code 
+> Get the additional source code 
 
-> https://github.com/anzuj/anzuj.github.io.git 
 > https://github.com/harrisonjansma/harrisonjansma.github.io.git
 
 
