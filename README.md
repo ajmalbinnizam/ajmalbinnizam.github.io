@@ -12,7 +12,7 @@
 
 > checkout more about this  https://ajmalbinnizam.github.io/ajuprojects1/post/project-3/
 
-[![my website](https://ajmalbinnizam.github.io/ajuprojects1/images/mywebsite.png)
+[![my website](https://ajmalbinnizam.github.io/ajuprojects1/images/mywebsite.png)](ajmalbinnizam.github.io/ajmalbinnizam/)
 
 
 
