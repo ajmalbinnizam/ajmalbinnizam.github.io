@@ -1,18 +1,17 @@
 # ajmalbinnizam
 
->  my personal website using html css js bootsrap and ph,with motivation  of nikhhil sir from [crossroads](https://www.youtube.com/channel/UCoGHeFY7jE2OB_TJS_87MOA)
+>  my personal website using html css js bootsrap and php, with motivation  of nikhhil sir from [crossroads](https://www.youtube.com/channel/UCoGHeFY7jE2OB_TJS_87MOA)
 
 > i used juliocodes tutorial and two website combined to make my personal website
 
-> Get the source code 
+> Get the additional source code 
 
-> https://github.com/anzuj/anzuj.github.io.git 
 > https://github.com/harrisonjansma/harrisonjansma.github.io.git
 
 
 > checkout more about this  https://ajmalbinnizam.github.io/ajuprojects1/post/project-3/
 
-[![my website](https://ajmalbinnizam.github.io/ajuprojects1/images/mywebsite.png)](ajmalbinnizam.github.io/ajmalbinnizam/)
+[![my website](https://ajmalbinnizam.github.io/ajuprojects1/images/mywebsite.png)](https://ajmalbinnizam.github.io/ajmalbinnizam/)
 
 
 [![web design challenge](https://img.youtube.com/vi/2TfED5L4c3M/0.jpg)](https://www.youtube.com/watch?v=2TfED5L4c3M)
