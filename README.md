@@ -3,7 +3,9 @@
 >  my personal website using html css js bootsrap and ph
 
 > i used juliocodes tutorial and two website combined to make my personal website
+
 > Get the source code 
+
 > https://github.com/anzuj/anzuj.github.io.git 
 > https://github.com/harrisonjansma/harrisonjansma.github.io.git
 
@@ -12,5 +14,5 @@
 
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) 
-[![Dependency Status](http://img.shields.io/gemnasium/badges/badgerbadgerbadger.svg?style=flat-square)](https://gemnasium.com/badges/badgerbadgerbadger) 
+[![Dependency Status]
 [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger) 
