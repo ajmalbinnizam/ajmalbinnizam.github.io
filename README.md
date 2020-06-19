@@ -6,7 +6,6 @@
 
 > Get the additional source code 
 
-> https://github.com/harrisonjansma/harrisonjansma.github.io.git
 
 
 > checkout more about this  https://ajmalbinnizam.github.io/ajuprojects1/post/project-3/
