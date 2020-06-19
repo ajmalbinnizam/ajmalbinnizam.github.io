@@ -54,10 +54,22 @@ scrollTop: $($(this).attr("href")).offset().top
 
 });
 
-
-
-
-
+/*contact scroll
+function scrollToTop() {
+  var position = document.body.scrollTop || document.documentElement.scrollTop;
+  if (position){
+    window.scrollBy(0,-Math.max(10, Math.floor(position / 10)));
+    scrollAnimation=setTimeout('scrollToTop()',10);
+  }
+  else clearTimeout(scrollAnimation);
+}	
+*/
+function scrollToTop() {
+  if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {
+      window.scrollBy(0, -60);
+      requestAnimationFrame(scrollToTop);
+  }
+}
 
 
 
