@@ -10,7 +10,6 @@
 
 > checkout more about this  https://ajmalbinnizam.github.io/ajuprojects1/post/project-3/
 
-[![my website](https://ajmalbinnizam.github.io/ajuprojects1/images/mywebsite.png)](https://ajmalbinnizam.github.io/ajmalbinnizam/)
 
 
 [![web design challenge](https://img.youtube.com/vi/2TfED5L4c3M/0.jpg)](https://www.youtube.com/watch?v=2TfED5L4c3M)
