@@ -1,5 +1,13 @@
 
 
+  // let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+  //  window.addEventListener('load', function () {
+  //     //  spinnerWrapper.style.display = 'none';
+  //      spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+  //  });
+  
+
 $(document).ready(function () {
 // particles background
 particlesJS.load('particles-js', 'assets/particles.json', function () {
