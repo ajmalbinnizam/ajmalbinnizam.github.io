@@ -11,12 +11,9 @@
 > checkout more about this  https://ajmalbinnizam.github.io/ajuprojects/post/project-3/
 
 
-<<<<<<< HEAD
-=======
-[![my website](https://ajmalbinnizam.github.io/ajuprojects/images/mywebsite.png)](https://ajmalbinnizam.github.io/ajmalbinnizam/)
 
 [![my website](https://ajmalbinnizam.github.io/ajuprojects/images/mywebsite.png)](https://ajmalbinnizam.github.io/ajmalbinnizam/)
->>>>>>> fb20134... Update README.md
+
 
 
 [![web design challenge](https://img.youtube.com/vi/2TfED5L4c3M/0.jpg)](https://www.youtube.com/watch?v=2TfED5L4c3M)
