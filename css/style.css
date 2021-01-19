@@ -307,7 +307,7 @@ header {
 }
 
 .profile-img {
-  max-width: 30rem;
+  max-width: 35rem;
   flex: 1;
   margin: 0 3rem 7rem 0;
 }
@@ -927,7 +927,7 @@ max-width: 100%;
 
 
   .profile-img {
-    margin: 0 7rem 7rem 7rem;
+    margin: 0 5rem 5rem;
   }
 
   .portfolio-item {
