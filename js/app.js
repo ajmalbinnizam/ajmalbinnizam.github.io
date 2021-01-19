@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
 // particles background
 particlesJS.load('particles-js', 'assets/particles.json', function () {
