@@ -46,7 +46,7 @@ scrollTop: $($(this).attr("href")).offset().top
   AOS.init({
     easing: "ease",
     duration: 1200,
-    //once: true
+    once: true
   })
 
 
