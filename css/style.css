@@ -197,8 +197,17 @@ header {
   .logo {
     margin-top: 0;
   }
+  /* .social-media i{
+    padding: 10px;
+  } */
+ 
 }
-
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+  
+  .social-media i{
+    padding: 10px;
+  }
+}
 
 /* in case ever make a logo */
 .logo {
@@ -373,6 +382,9 @@ header {
 
 .fa-github:hover {
   color: rgb(51, 51, 51);
+}
+.fa-whatsapp:hover {
+  color: rgb(4, 80, 14);
 }
 
 /*End about*/
