@@ -29,12 +29,14 @@ a {
 }
 
 section p {
-  font-size: 1.8rem;
-  font-weight: 200;
-  width: auto;
-  line-height: 1.3;
-  word-spacing: 3px;
+
+    font-size: 1.8rem;
+    font-weight: 200;
+    width: auto;
+    line-height: 1.5;
+    word-spacing: 3px;
 }
+
 .container h4 {
   font-size: 1.8rem;
 }
@@ -207,7 +209,11 @@ header {
   .social-media i{
     padding: 10px;
   }
+
+
 }
+
+
 
 /* in case ever make a logo */
 .logo {
@@ -247,9 +253,14 @@ header {
   font-family: "Open Sans", "sans-serif";
   font-size: 3rem;
   font-weight: 200;
+  /* margin: 5px; */
   margin-bottom: 2rem;
 
+  
+
 }
+
+
 
 
 .landingbtn {
@@ -316,9 +327,9 @@ header {
 }
 
 .profile-img {
-  max-width: 35rem;
+  max-width: 30rem;
   flex: 1;
-  margin: 0 3rem 7rem 0;
+  margin: 0 3rem 6rem 0;
 }
 
 .profile-img img {
@@ -391,7 +402,7 @@ header {
 
 /*Start services*/
 .my-skills {
-  margin-top: 10rem;
+  margin-top: 1rem;
   display: flex;
   flex-flow: row;
   text-align: center;
@@ -409,11 +420,13 @@ header {
   margin: 2rem -2px 2rem 0;
   font-size: 2rem;
 }
-
+.my-skills p{
+  font-size: 1.6rem;
+}
 .icon-container {
   width: 10rem;
   height: 10rem;
-  border: 1px solid #6c4a88;
+  border: 3px solid #6c4a88;
   background-color: #a8a5a81a;
   margin-bottom: 2rem;
   display: flex;
@@ -422,7 +435,7 @@ header {
 
 .icon-container i {
   color: white;
-  font-size: 5rem;
+  font-size: 10rem;
   margin: auto;
   transform: rotate(-45deg);
 }
@@ -865,7 +878,10 @@ max-width: 100%;
   }
 
   .landing-text h6 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  
+      width: 320px;
+    }
   }
 
 
@@ -886,12 +902,12 @@ max-width: 100%;
   }
 
   .icon-container {
-    width: 7rem;
-    height: 7rem;
+    width: 9rem;
+    height: 9rem;
   }
 
   .icon-container i {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
 }
@@ -919,8 +935,12 @@ max-width: 100%;
 
  section p, .portfolio-long ul, .bio ul{
     font-size: 1.5rem;
+    
   }
+.about-details p{
+  padding: 0.8rem;
 
+}
   .landing-text h1 {
     font-size: 7rem;
   }

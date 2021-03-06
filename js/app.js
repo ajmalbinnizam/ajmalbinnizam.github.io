@@ -1,57 +1,62 @@
+
+
 $(document).ready(function () {
-// particles background
-particlesJS.load('particles-js', 'assets/particles.json', function () {
-  console.log('callback - particles.js config loaded');
-});
-
-
-//toggle menu visibility
-$("#js-navbar-toggle").on("click", function () {
- $("#js-menu").toggleClass('active');
-});
-
-  // smooth scrolls to sections
-  $('nav a[href*="#"]').not("#blog").on("click", function () {
-    $("#js-menu").toggleClass('active');
- $("html, body").animate({
-scrollTop: $($(this).attr("href")).offset().top
- }, 500);
+  // particles background
+  particlesJS.load('particles-js', 'assets/particles.json', function () {
+    console.log('callback - particles.js config loaded');
   });
-
-
-  // landingbutton scroll
-  $(".landingbtn").on("click", function () {
-    $("html, body").animate({
-      scrollTop: $($(this).attr("href")).offset().top
-       }, 500);
-   });
-
   
-// show portfolio item extra content
- $(".expandDetails").on("click", function () {
-  $(this).parent().siblings(".portfolio-long").slideToggle(500);
-  $(this).children(".arrowDown").toggle();
-  $(this).children(".arrowUp").toggle();
+  
+  //toggle menu visibility
+  $("#js-navbar-toggle").on("click", function () {
+   $("#js-menu").toggleClass('active');
   });
-
-
-// smooth scroll back up
-  $("#up").on("click", function () {
-    $("html, body").animate({
-      scrollTop: 0
-       }, 1000); 
+  
+    // smooth scrolls to sections
+    $('nav a[href*="#"]').not("#blog").on("click", function () {
+      $("#js-menu").toggleClass('active');
+   $("html, body").animate({
+  scrollTop: $($(this).attr("href")).offset().top
+   }, 500);
+    });
+  
+  
+    // landingbutton scroll
+    $(".landingbtn").on("click", function () {
+      $("html, body").animate({
+        scrollTop: $($(this).attr("href")).offset().top
+         }, 500);
+     });
+  
+    
+  // show portfolio item extra content
+   $(".expandDetails").on("click", function () {
+    $(this).parent().siblings(".portfolio-long").slideToggle(500);
+    $(this).children(".arrowDown").toggle();
+    $(this).children(".arrowUp").toggle();
+    });
+  
+  
+  // smooth scroll back up
+    $("#up").on("click", function () {
+      $("html, body").animate({
+        scrollTop: 0
+         }, 1000); 
+    });
+  
+    // animations
+    AOS.init({
+      easing: "ease",
+      duration: 1200,
+      once: true
+    })
+  
+  
   });
-
-  // animations
-  AOS.init({
-    easing: "ease",
-    duration: 1200,
-    once: true
-  })
-
-
-});
-
+  
+  
+  
+  
 
 
 
